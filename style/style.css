@@ -1,0 +1,684 @@
+*,
+p,
+h6 {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+@media only screen and (max-width: 411px) {
+  body {
+    font-size: 14px;
+  }
+}
+a {
+  color: #031b4e;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  color: #424242;
+  text-decoration: none;
+}
+nav {
+  font-size: 14px;
+}
+li {
+  display: inline-block;
+  padding: 15px;
+}
+li.mobile {
+  display: block;
+  padding: 10px 10px;
+}
+
+header {
+  width: 100%;
+  height: 65vh;
+}
+footer {
+  background-color: #f4f6fc;
+  box-shadow: 0px -12px 20px #f4f6fc;
+  color: #fff;
+}
+.boxtitle {
+  font-size: 13px;
+  font-weight: 400;
+}
+h1 {
+  color: #031b4e;
+  font-size: 3em;
+  font-weight: 500;
+}
+@media only screen and (max-width: 411px) {
+  h1 {
+    color: #031b4e;
+    font-size: 44px;
+  }
+}
+h3 {
+  color: rgba(3, 27, 78, 0.7);
+  font-size: 20px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 411px) {
+  h3 {
+    color: rgba(3, 27, 78, 0.7);
+    font-size: 22px;
+  }
+}
+#entete {
+  text-align: center;
+  height: 100%;
+}
+#navigation {
+  width: 100%;
+  display: inline-block;
+  position: fixed;
+  background-color: #fff;
+  z-index: 99;
+  transition: 0.75s;
+}
+.ombre {
+  box-shadow: -4px 0px 10px 1px rgba(37, 44, 63, 0.22);
+}
+#titre {
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+}
+#title {
+  padding-top: 230px;
+  text-align: center;
+  padding-left: 30px;
+}
+
+#logo {
+  display: inline-block;
+  float: left;
+  margin-left: 7%;
+}
+a.log {
+  color: #000;
+}
+li.logo {
+  font-size: 14px;
+  padding: 10px 10px;
+}
+#menu {
+  display: inline-block;
+  float: right;
+  padding-right: 10px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.boxform {
+  background: radial-gradient(circle at 50% 0, #e13d3d, rgba(78, 61, 61, 0) 70.71%),
+    radial-gradient(circle at 6.7% 75%, #a72121, rgba(0, 0, 255, 0) 70.71%),
+    radial-gradient(circle at 93.3% 75%, #a72121, #e13d3d 70.71%) white;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px 0;
+  width: 200px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.boxform3 {
+  background: radial-gradient(circle at 50% 0, #a583e8, rgba(78, 61, 61, 0) 70.71%),
+    radial-gradient(circle at 6.7% 75%, #7744d9, rgba(0, 0, 255, 0) 70.71%),
+    radial-gradient(circle at 93.3% 75%, #7744d9, #a583e8 70.71%) white;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px 0;
+  width: 200px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+a.btnblanc {
+  color: #000;
+}
+a.btnblue {
+  color: #fff;
+}
+p {
+  color: rgba(3, 27, 78, 0.7);
+}
+p.skill {
+  font-size: 20px;
+}
+li.current a {
+  color: #2346ac;
+}
+#fleche {
+  margin-top: 15px;
+  color: #3d5af1;
+}
+
+strong {
+  color: rgba(3, 27, 78, 0.7);
+  font-weight: bold;
+}
+h6 {
+  font-size: 1rem;
+  font-size: 20px;
+  color: #031b4e;
+  font-weight: 500;
+}
+.boxcontent {
+  word-wrap: break-word;
+  font-size: 14px;
+  font-weight: 300;
+}
+.box {
+  display: inline-block;
+  text-align: left;
+  margin: 10px 20px;
+  width: 250px;
+}
+#footercontain {
+  text-align: center;
+  background-color: #f4f6fc;
+}
+#textpropos {
+  color: #5f6368;
+  margin: auto;
+  padding-bottom: 5px;
+  max-width: 1040px;
+}
+#propos {
+  padding: 20px;
+}
+
+@media only screen and (max-width: 411px) {
+  #logo {
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+  }
+
+  .phtitle {
+    text-align: center;
+  }
+
+  #textpropos {
+    text-align: justify;
+  }
+}
+
+button#sub {
+  border-radius: 4px;
+  background-color: #3d5af1;
+  color: #fff;
+  border: 1px solid #3d5af1;
+  cursor: pointer;
+  font-size: 17px;
+  width: 150px;
+  font-size: 20px;
+  outline: none;
+}
+@media only screen and (max-width: 411px) {
+  button#sub {
+    border-radius: 4px;
+    background-color: #3d5af1;
+    color: #fff;
+    border: 1px solid #3d5af1;
+    cursor: pointer;
+    font-size: 17px;
+    width: 100%;
+    font-size: 20px;
+  }
+}
+#sub:hover {
+  box-shadow: 0 1px 1px 0px rgba(60, 64, 67, 0.08), 0px 3px 3px 0px rgba(60, 64, 67, 0.16);
+}
+.annee {
+  color: #bbb;
+  font-size: 28px;
+}
+.diplome {
+  font-size: 18px;
+}
+.ecole {
+  font-size: 14px;
+}
+.groupbox {
+  text-align: center;
+}
+
+p.content {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: rgba(3, 27, 78, 0.7);
+}
+svg#svg {
+  color: #000;
+}
+p#accroche {
+  color: rgba(3, 27, 78, 0.7);
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+#decouvrir {
+  background: radial-gradient(circle at 50% 0, #4272fa, rgba(255, 0, 0, 0) 70.71%),
+    radial-gradient(circle at 6.7% 75%, #2346ac, rgba(0, 0, 255, 0) 70.71%),
+    radial-gradient(circle at 93.3% 75%, #2346ac, #4272fa 70.71%) white;
+  padding: 7px 0px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  display: inline-block;
+  width: 250px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+#decouvrirStage {
+  color: #fff;
+  outline: none;
+  display: inline-block;
+}
+#decouvrir:hover {
+  box-shadow: 0 1px 1px 0px rgba(60, 64, 67, 0.08), 0px 3px 3px 0px rgba(60, 64, 67, 0.16);
+}
+a.explo {
+  color: #fff;
+}
+h2 {
+  color: #031b4e;
+  font-size: 28px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 411px) {
+  h2 {
+    color: #031b4e;
+    font-size: 24px;
+  }
+}
+
+#propos {
+  padding-top: 25px;
+  padding-bottom: 40px;
+  text-align: left;
+  display: inline-block;
+  width: 1040px;
+  padding-left: 20px;
+}
+.skillH {
+  text-align: left;
+}
+
+#skill {
+  width: 1040px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media only screen and (max-width: 411px) {
+  #skill,
+  #propos {
+    width: 320px;
+  }
+  .skillH {
+    text-align: center;
+  }
+}
+#clearfix {
+  display: inline-block;
+}
+@media only screen and (max-width: 411px) {
+  #h3s,
+  #formation,
+  #projet,
+  #cv {
+    width: 320px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+#addr {
+  margin-bottom: 5px;
+}
+#skillbox {
+  width: 48%;
+  margin: auto;
+  display: inline-block;
+  text-align: left;
+  min-width: 280px;
+}
+#men1 {
+  width: 100%;
+}
+section {
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: #eaecf3;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.containetime {
+  padding: 10px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.containetime::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: -4px;
+  background-color: #f4f6fc;
+  border: 2px solid #22608d;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 55%;
+}
+
+/* Add arrows to the left container (pointing right) */
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -48px;
+}
+
+/* The actual content */
+.contenttime {
+  position: relative;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .containetime {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .containetime::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .right::after {
+    left: 23px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+/*----------Triple boites-----------*/
+.threebox {
+  width: 850px;
+  margin-left: auto;
+  margin-right: 5px;
+  padding: 20px 25px;
+  word-wrap: break-word;
+}
+
+@media only screen and (max-width: 411px) {
+  .threebox {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: none;
+  }
+}
+.typed-cursor {
+  display: none;
+}
+
+.boxright {
+  box-shadow: 1px 0px 8px #7272;
+  width: 35%;
+  background-color: #f4f6fc;
+  display: inline-block;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 411px) {
+  .boxright {
+    width: 100%;
+    display: block;
+  }
+}
+
+.tit1 {
+  width: 1000px;
+  text-align: left;
+}
+#bb {
+  display: flex;
+  width: 1000px;
+}
+#bm {
+  width: 45%;
+}
+@media only screen and (max-width: 411px) {
+  #bb {
+    width: 360px;
+    display: block;
+    padding: 0px 9px;
+  }
+  #accroche{
+    text-align: center;
+  }
+  .tit1 {
+    width: 360px;
+    text-align: center;
+  }
+  #title {
+    padding-left: 0px;
+  }
+  #bm {
+    width: 100%;
+  }
+  p#accroche {
+    font-size: 20px;
+    padding-bottom: 18px;
+  }
+  #decouvrir {
+    margin-top: 0px;
+  }
+}
+
+/* COMPETENCES  */
+
+#Competences {
+  background: url("../assets/fond2.png");
+  background-repeat: no-repeat;
+}
+
+#competenceType {
+  display: flex;
+  margin-top: 25px;
+  padding-bottom: 135px;
+}
+
+#leger {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#lourd {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#requetage {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.principale {
+  background-color: #22608d;
+  padding: 0px 14px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.secondaire {
+  background-color: #4cc4c6;
+  padding: 0px 14px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 411px) {
+  #Competences {
+    padding-bottom: 67px;
+    background: url("../assets/fond2Mobile.png");
+    background-repeat: no-repeat;
+  }
+
+  #competenceType {
+    display: inline;
+  }
+
+  .principale {
+    padding: 0px 9px;
+  }
+
+  .secondaire {
+    padding: 0px 9px;
+  }
+}
+
+#Presentation {
+  background: url("../assets/fond.png");
+  background-repeat: no-repeat;
+  padding: 175px 0px 20px 0px;
+}
+#PresentationCompetence {
+  background-repeat: no-repeat;
+  padding: 20px 0px 15px 0px;
+}
+#PresentationEntreprise {
+  background: url("../assets/fond.png");
+  background-repeat: no-repeat;
+  padding: 175px 0px 10px 0px;
+}
+#PresentationVisual {
+  background-color: #f4f6fc;
+}
+
+.mvvm,
+.agile {
+  width: 650px;
+}
+
+@media only screen and (max-width: 411px) {
+  #Presentation,
+  #PresentationVisual {
+    padding: 175px 0px 15px 0px;
+  }
+  .mvvm,
+  .agile {
+    width: 250px;
+  }
+
+  #bd {
+    display: none;
+  }
+  section#stage {
+    margin-top: 0px;
+  }
+  .boxright {
+    display: none;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+.list {
+  margin-top: 44px;
+}
+
+#projets {
+  background-color: #f4f6fc;
+  width: 100%;
+  padding-top: 25px;
+  box-shadow: inset 0px 20px 20px #fff;
+}
+
+#containProjet {
+  padding-bottom: 60px;
+}
+
+.boxProjet {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.cardProjet {
+  background-color: #f4f6fc;
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  box-shadow: 15px 15px 20px #3754aa17, -10px -10px 20px #fff, 4px 4px 20px #ffffff80 inset, -10px -10px 20px #3754aa17;
+}
